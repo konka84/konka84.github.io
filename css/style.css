@@ -182,8 +182,8 @@ a{
     background-color:darkblue;
     padding: 20px;
     color: whitesmoke;
-    align-self: flex-end;
-    width: 80%;
+    
+    width: 100%;
 
 }
 .projectbx{
@@ -194,7 +194,7 @@ a{
 .projectitem{
     width: 100%;
     margin: 0px;
-    background-color:white;
+    background-color:lightslategray;
     display: flex;
    flex-direction: column;
     border-width: 0px;
@@ -202,8 +202,8 @@ a{
     border-color: black;
     border-style:solid;
     padding-left: 10px;
-    width: 80%;
-    align-self: flex-end;
+    width: 100%;
+    
 
 }
 .perintbx{
@@ -287,11 +287,27 @@ clear: both;
     margin-top: 40px;
 }
 .ex{
-    color:lightsteelblue;
+    color:lightslategray;
+    font-style: italic;
 }
 .about{
     font-style: italic;
     color: lightsteelblue;
+}
+.language{
+    text-align: center;
+  
+    padding: 10px;
+    color: lightsteelblue;
+    margin-top: 40px;
+}
+.ltag{
+    font-style: italic;
+    color: lightslategray;
+}
+.ltype{
+    color: lightsteelblue;
+
 }
 @media screen and (max-width: 950px) {
     
